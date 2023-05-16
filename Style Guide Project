@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Style Guide/Design System for your Website</title>
+      <link href="styles.css" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,400;0,700;1,400&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    </head>
+    <body>
+      <div class="banner">
+        <h1>Style Guide/Design System for your Website</h1>
+        <h2>Colors and Fonts</h2>
+        <h3>For Designing your Website</h3>
+      </div>
+
+<!-- Colors Section-->
+
+      <div class="container">
+        <h2>Colors</h2>
+        <div class="color-container">
+          <div class="color-panel red">
+            <p>Red</p>
+            <p>#FF0000</p> 
+          </div>
+          <div class="color-panel green">
+            <p>Green</p>
+            <p>#008000</p> 
+          </div>
+          <div class="color-panel blue">
+            <p>Blue</p>
+            <p>#0000FF</p> 
+          </div>
+          <div class="color-panel coral">
+            <p>Coral</p>
+            <p>#FF7F50</p>
+          </div>
+          <div class="color-panel purple">
+            <p>Purple</p>
+            <p>#800080</p>
+          </div>
+          <div class="color-panel gray">
+            <p>Gray</p>
+            <p>#808080</p>
+          </div>
+        </div>
+        <div>
+          <p>Above shown are just a few of many shades of colors that can be used for the purposes of desigining your website. If you have any particular color in mind for specific elements they can also be used with the correct Hexidecimal color code. To see a larger list of colors and their Hexidecimal codes <a href="https://www.w3schools.com/cssref/css_colors.php">click here</a>.</p>
+        </div>
+      </div>
+
+<!--Fonts Section-->
+
+      <div class="container">
+        <div>
+          <h2>Fonts</h2>
+        </div>
+        <div class="font-container">
+          <div class="font-panel">
+            <p class="font-label roboto">Roboto</p>
+            <p class="regular roboto">This font is Regular</p>
+            <p class="bold roboto">This font is Bold</p>
+            <p class ="italic roboto">This font is Italic</p>
+          </div>
+          <div class="font-panel">
+            <p class="font-label poppins">Poppins</p>
+            <p class="regular poppins">This font is Regular</p>
+            <p class="bold poppins">This font is Bold</p>
+            <p class="italic poppins">This font is Italic</p>
+          </div>
+          <div class="font-panel">
+            <p class="font-label source-code-pro">Source Code Pro</p>
+            <p class="regular source-code-pro">This font is Regular</p>
+            <p class="bold source-code-pro">This font is Bold</p>
+            <p class="italic source-code-pro">This font is Italic</p>
+          </div>
+          <div class="font-panel">
+            <p class="font-label playfair-display">Playfair Display</p>
+            <p class="regular playfair-display">This font is Regular</p>
+            <p class="bold playfair-display">This font is Bold</p>
+            <p class="italic playfair-display">This font is Italic</p>
+          </div>
+          <div>
+            <p>The above fonts are all fonts that have been imported using <a href="https://fonts.google.com/">Google Fonts</a>. Be aware that not all fonts have to be imported into a browser. You can find the list of already available, web-safe fonts, <a href="https://www.w3schools.com/cssref/css_websafe_fonts.php">here</a>.</p> 
+          </div>
+        </div>
+      </div>
+
+<!--Text Styles Section-->
+
+      <div class="container">
+        <div>
+          <h2>Text Styles</h2>
+        </div>
+        <div>
+          <p>Below are some of the CSS stylings used for the various fonts on this page.</p>
+        </div>
+        <div class="text-container">
+          <div class="text-panel">
+            <h1>H1:Main page Heading</h1>
+            <ul>
+              <li>Font-weight: 700 (bold)</li>
+              <li>Font-size: 26px</li>
+              <li>Font-family: Roboto</li>
+            </ul>
+          </div>
+          <div class="text-panel">
+            <h2>H2: Subheading</h2>
+            <ul>
+              <li>Font-weight: 400</li>
+              <li>Font-size: 18px</li>
+              <li>Font-family: Poppins</li>
+            </ul>
+          </div>
+          <div class ="text-panel">
+            <h3>H3:Second Subheading</h3>
+            <ul>
+              <li>Font-weight: 400 (italic)</li>
+              <li>Font-size: 16px</li>
+              <li>Font-family: Playfair Display</li>
+            </ul>
+          </div>
+          <div class="text-panel">
+            <p>P: Paragraph text</p>
+           <ul>
+              <li>Font-weight: 400 (regular)</li>
+              <li>Font-size: 14px</li>
+              <li>Font-family: Source Code Pro</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </body>
+</html>
